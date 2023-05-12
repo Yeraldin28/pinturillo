@@ -1,0 +1,4 @@
+/node_modules
+/.netlify
+/server/node_modules
+/ui/whiteboard-collab/node_modules
