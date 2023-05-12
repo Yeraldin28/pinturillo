@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "cd client && npm run build",
-    "dev": "concurrently --kill-others-on-fail \"npm run start\" \"cd client && npm start\""
+    "build": "cd ui && cd whiteboard-collab && npm run build",
+    "dev": "concurrently --kill-others-on-fail \"npm run start\" \"cd ui && cd whiteboard-collab && npm start\""
   },
   "eslintConfig": {
     "extends": "react-app"
